@@ -1,11 +1,19 @@
 {
-  "timestamp": "2025-04-08T14:23:41.375Z",
+  "timestamp": "2025-04-08T14:24:05.529Z",
   "status": {
     "totalComponents": 0,
     "completedComponents": 0,
-    "failedComponents": 0,
+    "failedComponents": 1,
     "progress": 0
   },
-  "components": [],
+  "components": [
+    {
+      "name": "Site Plan",
+      "type": "plan",
+      "status": "failed",
+      "description": "יצירת תוכנית האתר",
+      "error": "שגיאה בשירות Anthropic: Failed after 3 attempts. Last error: Overloaded"
+    }
+  ],
   "repoName": "webis-site-chnvt-bgdym-gma-1744122190457"
 }
